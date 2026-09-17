@@ -2,3 +2,16 @@
 core/.build
 core/local
 core/auto
+
+# live-build artifacts and cache
+cache/
+chroot/
+binary*/
+.build/
+*.iso
+*.iso.zsync
+*.contents
+*.files
+*.packages
+*.buildlog
+*.build

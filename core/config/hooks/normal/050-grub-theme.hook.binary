@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-mkdir -p binary/boot/grub/themes
-cp -r config/includes.binary/boot/grub/mytheme binary/boot/grub/themes/
-echo 'GRUB_THEME="/boot/grub/themes/mytheme/theme.txt"' >> binary/boot/grub/grub.cfg
